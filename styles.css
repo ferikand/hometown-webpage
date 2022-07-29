@@ -9,10 +9,51 @@ DARK BLUE: #1D3557
 */
 
 body {
-    margin: 0;
-    text-align: center;
+  margin: 0;
+  text-align: center;
 }
 
 img {
-    width: 100px;
+  width: 100px;
+}
+
+.hero {
+  background-image: url("images/kyiv-hero-bg.jpg");
+  background-size: cover;
+  height: 343px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 32px;
+  background: #1d3557;
+  padding: 5px 29px;
+  border-radius: 10px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 19px;
+  background: #457b9d;
+  padding: 5px 29px;
+  border-radius: 10px;
+  width: 355px;
+}
+
+.activities {
+  background: #f1faee;
+  display: flex;
+  justify-content: space-around;
+}
+
+.activities-figure img {
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 58px;
 }

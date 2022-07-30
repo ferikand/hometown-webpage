@@ -46,6 +46,8 @@ h2 {
   width: 355px;
 }
 
+/* activities section */
+
 .activities {
   background: #f1faee;
   display: flex;
@@ -84,4 +86,69 @@ h2 {
 
 .activities-description {
   width: 198px;
+}
+
+/* giude section  */
+
+.guide-section {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+
+  background: #a8dadc;
+  box-shadow: 0px 6px 0px #1d3557;
+  border-radius: 10px;
+
+  width: 400px;
+  height: 294px;
+  margin: 50px 160px;
+}
+
+.guide-image {
+  width: 180px;
+  height: 248.67px;
+
+  margin: 23px 7px 23px 13px;
+
+  background: url(images/ferik.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.guide-info {
+  width: 189px;
+}
+
+.guide-info h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #1d3557;
+}
+
+.guide-info p {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #1d3557;
+}
+
+.guide-info h4 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #1d3557;
 }
